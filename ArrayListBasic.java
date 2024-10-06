@@ -14,6 +14,18 @@ public class ArrayListBasic {
         list.remove("Bananna");
         System.out.println(list);
 
-    
-    }        
+        list.set(0,"Mango");
+        System.out.println(list);
+
+        list.add("Bananna");
+        list.add("Grapes");
+        list.add("Pineapple");
+
+        String firstelement=list.get(0);
+        System.out.println("First element"+firstelement);
+
+        System.out.println(list.contains("Apple"));
+
+
+    }     
 }
