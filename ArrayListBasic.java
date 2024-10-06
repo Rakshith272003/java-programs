@@ -8,6 +8,12 @@ public class ArrayListBasic {
         System.out.println(list);
 
         int size=list.size();
-        System.out.println("the size of an ");
-        }
+        System.out.println("the size of an Arraylist is"+size);
+        
+
+        list.remove("Bananna");
+        System.out.println(list);
+
+    
+    }        
 }
