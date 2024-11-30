@@ -1,4 +1,4 @@
-class Example{
+class ExampleDemo{
     void instanceMethod(){
         System.out.println("This is an instance method");
     }
@@ -6,7 +6,7 @@ class Example{
 
 public class Instancedemo {
     public static void main(String[] args) {
-        Example obj =new Example();
+        ExampleDemo obj = new ExampleDemo();
         obj.instanceMethod();
     }
 }
